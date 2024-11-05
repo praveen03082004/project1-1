@@ -9,14 +9,13 @@ body{
 
 /* header section */
 .header{
-    margin-top: 10px;
+     margin-top: 10px;
      background-color: hwb(0 0% 100%);
      width: 100%;
      display: flex;
      justify-content: space-between;
      align-items: center;
-     position: sticky;
-     top: 1px;
+     position: fixed;
      padding: 10px;
      z-index: 10;
 }
@@ -35,9 +34,9 @@ body{
     font-size: 180px;
     color: rgba(245, 245, 245, 0.9);
     opacity: 0.1;
-    position: relative;
+    position: absolute;
     top: 260px;
-    left: 80px;
+    left: 80px; */
 }
 
 /* first product details */
@@ -53,14 +52,13 @@ body{
 }
 .div1{
     padding-left: 90px;
-    position: relative;
-    bottom: 110px;
+    padding-top: 60px;
 
 }
 /* product image */
 .div2 img{
-    position: relative;
-    bottom: 100px;
+    padding-top: 80px;
+    padding-right: 10px;
     right: 100px;
     width: 100%;
     z-index: 5;
@@ -98,7 +96,7 @@ body{
     font-weight: bolder;
     padding-bottom: 30px;
     margin-bottom:90px ;
-    margin-top: 100px;
+    margin-top: 300px;
 }
 .topimages{
     display: grid;

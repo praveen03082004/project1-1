@@ -1,0 +1,30 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color:hwb(0 0% 100% / 0.903);
+    width: 100%;
+}
+
+/* header section */
+.header{
+     margin-top: 10px;
+     background-color: hwb(0 0% 100%);
+     width: 100%;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     position: fixed;
+     padding: 10px;
+     z-index: 10;
+}
+.logo h3{
+    color: aliceblue;
+    cursor:pointer;
+    padding-left: 10px;
+}
+.navbar a{
+    padding: 15px;
+    color: aliceblue;
+}
