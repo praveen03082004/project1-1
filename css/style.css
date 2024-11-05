@@ -106,7 +106,7 @@ body{
 
 }
 .id2{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     padding: 10px;
     margin: 10px;
 }
@@ -148,6 +148,8 @@ body{
 }
 #id4{
     padding: 60px;
+    position: relative;
+    bottom: 50px;
 }
 #id5 span{
     padding-left: 50px;
