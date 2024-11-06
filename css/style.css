@@ -9,14 +9,12 @@ body{
 
 /* header section */
 .header{
-     margin-top: 10px;
      background-color: hwb(0 0% 100%);
      width: 100%;
      display: flex;
      justify-content: space-between;
      align-items: center;
      position: fixed;
-     padding: 10px;
      z-index: 10;
 }
 .logo h3{
@@ -24,6 +22,25 @@ body{
     cursor:pointer;
     padding-left: 10px;
 }
+
+.test-class span{
+    border: 1px solid darkgray;
+    text-align: center;
+    display: none;
+    color: white;
+
+}
+.test-class:hover span{
+    display: block;
+}
+.test-class {
+    display: grid;
+}
+
+.navbar {
+    display: flex;
+}
+
 .navbar a{
     padding: 15px;
     color: aliceblue;
@@ -36,7 +53,7 @@ body{
     opacity: 0.1;
     position: absolute;
     top: 260px;
-    left: 80px; */
+    left: 80px; 
 }
 
 /* first product details */
