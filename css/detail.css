@@ -8,23 +8,102 @@ body{
 }
 
 /* header section */
+
 .header{
-     margin-top: 10px;
-     background-color: hwb(0 0% 100%);
-     width: 100%;
-     display: flex;
-     justify-content: space-between;
-     align-items: center;
-     position: fixed;
-     padding: 10px;
-     z-index: 10;
+    background-color:hwb(0 0% 100% / 0.903);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    position: fixed;
+    z-index: 10;
 }
 .logo h3{
-    color: aliceblue;
-    cursor:pointer;
-    padding-left: 10px;
+   padding-left: 15px;
+   color: white;
 }
-.navbar a{
-    padding: 15px;
-    color: aliceblue;
+.navbar a {
+   padding-right: 44px;
+   color: aliceblue;
+   position: relative;
+   top: 10px;
+} 
+.navbar {
+   display: flex;
+}
+.test-class span{
+   display: grid;
+   visibility: hidden;
+}
+.test-class:hover span{
+   position:relative;
+   top: 20px;
+   border: 1px solid gray;
+   text-align: center;
+   color: white;
+   visibility: visible;
+}
+.test-class1 span{
+   display: grid;
+   position: absolute;
+   top: 42px;
+   right: 10px;
+   visibility: hidden;
+}
+.test-class1:hover span{
+   padding: 5px;
+   border: 1px solid gray;
+   visibility: visible;
+   padding: 20px 15px 8px 15px;
+   background-color: hwb(0 0% 100% / 0.399);
+}
+.test-class1:hover span h5{
+       color: white;
+       font-size: 20px;
+}
+.test-class1:hover span p{
+   color: gray;
+}
+.test-class1:hover span #button{
+   border: 1px solid gray;
+   color: white;
+   background-color: hwb(0 0% 100% / 0.458);
+   width: 45%;
+   padding: 5px;
+   text-decoration: none;
+}
+
+/* product details */
+
+.container{
+    display: flex;
+}
+.item1 img{
+        padding: 5px;
+        width: 60%;
+        margin-top: 70px;
+        margin-left: 10px;
+        border: 2px solid gray;
+        flex: 2;
+}
+.item2 img{
+    border: 1px solid red;
+        width: 100%;
+        padding-right: 100px;
+        margin-right: 50px;
+        margin-top: 60px;
+}
+.item1{
+    flex: 2;
+    border: 1px solid red;
+}
+.item2{
+    flex: 7;
+}
+.item3{
+    flex: 3;
+    margin-top: 80px;
+    border: 1px solid blue;
+    padding: 8px;
 }

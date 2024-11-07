@@ -8,44 +8,71 @@ body{
 }
 
 /* header section */
+
 .header{
-     background-color: hwb(0 0% 100%);
+     background-color:hwb(0 0% 100% / 0.903);
      width: 100%;
      display: flex;
      justify-content: space-between;
      align-items: center;
+     padding: 5px;
      position: fixed;
      z-index: 10;
 }
 .logo h3{
-    color: aliceblue;
-    cursor:pointer;
-    padding-left: 10px;
-}
-
-.test-class span{
-    border: 1px solid darkgray;
-    text-align: center;
-    display: none;
+    padding-left: 15px;
     color: white;
-
 }
-.test-class:hover span{
-    display: block;
-}
-.test-class {
-    display: grid;
-}
-
+.navbar a{
+    padding-right: 44px;
+    color: aliceblue;
+    position: relative;
+    top: 10px;
+} 
 .navbar {
     display: flex;
 }
-
-.navbar a{
-    padding: 15px;
-    color: aliceblue;
+.test-class span{
+    display: grid;
+    visibility: hidden;
 }
-
+.test-class:hover span{
+    position:relative;
+    top: 20px;
+    border: 1px solid gray;
+    text-align: center;
+    color: white;
+    visibility: visible;
+}
+.test-class1 span{
+    display: grid;
+    position: absolute;
+    top: 42px;
+    right: 10px;
+    visibility: hidden;
+}
+.test-class1:hover span{
+    padding: 5px;
+    border: 1px solid gray;
+    visibility: visible;
+    padding: 20px 15px 8px 15px;
+    background-color: hwb(0 0% 100% / 0.399);
+}
+.test-class1:hover span h5{
+        color: white;
+        font-size: 20px;
+}
+.test-class1:hover span p{
+    color: gray;
+}
+.test-class1:hover span #button{
+    border: 1px solid gray;
+    color: white;
+    background-color: hwb(0 0% 100% / 0.458);
+    width: 45%;
+    padding: 5px;
+    text-decoration: none;
+}
 /* background text */
  h2{
     font-size: 180px;
@@ -257,14 +284,18 @@ section .class3{
 }
 
 
-#newtab{
+#newtab {
     border: 1px solid gray ;
      margin: 10px ; 
     background-color: black;
-    color: aliceblue;
     font-size: 35px;
     align-content: center;
     text-align: center;
+    cursor: pointer;
+}
+#newtab a{
+            color: aliceblue;
+            text-decoration: none;
 }
 
 /* footer section */
