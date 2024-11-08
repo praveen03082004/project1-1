@@ -92,8 +92,11 @@ body{
 .maindiv1{
    border: 2px solid rgba(46, 43, 43, 0.455);
    background-color: rgba(46, 43, 43, 0.455);
-   padding: 30px 0px 30px 20px;
+   padding: 30px 0px 30px 25px;
+   margin-left: 40px;
+   height: 450px;
    overflow-y: scroll;
+   /* scrollbar-color: rgb(226, 18, 18); */
 }
 .maindiv1 h2{
    color: white;
@@ -132,15 +135,30 @@ body{
    color: white; 
    text-align: center;
    width: 250px;
+   cursor: pointer;
    padding: 5px 50px 5px 50px;
 }
-#id1, #id2{
+#id1, #id2, #id3, #id4{
    display: flex;
    padding: 20px 0px 30px 0px;
 } 
+.maindiv1 button{
+         padding: 3px 13px 3px 13px;
+         background-color: rgb(49, 48, 48);
+}
+.maindiv1 button span{
+   color: orangered;
+   background-color: black;
+   padding: 4px 15px 4px 15px;
+
+}
+.maindiv1 button p{
+   background-color: black;
+}
 .maindiv1 img{
    width: 20%;
    margin-right: 50px;
+   cursor: pointer;
 }
 #id1 .imgdetails{
    margin-right: 40px;
@@ -149,12 +167,37 @@ body{
    margin-right: 40px;
 }
 .icon1{
-   margin-top: 15px;
+   margin: 15px 0px 0px 15px;
+   color: white;
 }
 .icon2{
-   margin: 20px 0px 0px 35px;
+   margin: 17px 0px 0px 50px;
+   color: white;
 }
-
+.icon3{
+   margin: 17px 0px 0px 95px;
+   color: white;
+}
+.icon4{
+   margin: 17px 0px 0px 95px;
+   color: white;
+}
+.icon1 i:hover{
+   cursor: pointer;
+   color: orangered;
+}
+.icon2 i:hover{
+   cursor: pointer;
+   color: orangered;
+}
+.icon3 i:hover{
+   cursor: pointer;
+   color: orangered;
+}
+.icon4 i:hover{
+   cursor: pointer;
+   color: orangered;
+}
 /* .Ordersummary */
 
 .orderdetails{
