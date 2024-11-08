@@ -1,0 +1,237 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color:hwb(0 0% 100% / 0.903);
+    width: 100%;
+}
+/* header section */
+
+.header{
+    background-color:hwb(0 0% 100% / 0.903);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    position: sticky;
+    top: 0.2px;
+    z-index: 10;
+}
+.logo h3{
+   padding-left: 15px;
+   color: white;
+}
+.navbar a {
+   padding-right: 44px;
+   color: aliceblue;
+   position: relative;
+   top: 10px;
+} 
+.navbar {
+   display: flex;
+}
+.test-class span{
+   display: grid;
+   visibility: hidden;
+}
+.test-class:hover span{
+   position:relative;
+   top: 20px;
+   border: 1px solid gray;
+   text-align: center;
+   color: white;
+   visibility: visible;
+}
+.test-class1 span{
+   display: grid;
+   position: absolute;
+   top: 42px;
+   right: 10px;
+   visibility: hidden;
+}
+.test-class1:hover span{
+   padding: 5px;
+   border: 1px solid gray;
+   visibility: visible;
+   padding: 20px 15px 8px 15px;
+   background-color: hwb(0 0% 100% / 0.399);
+}
+.test-class1:hover span h5{
+       color: white;
+       font-size: 20px;
+}
+.test-class1:hover span p{
+   color: gray;
+}
+.test-class1:hover span #button{
+   border: 1px solid gray;
+   color: white;
+   background-color: hwb(0 0% 100% / 0.458);
+   width: 45%;
+   padding: 5px;
+   text-decoration: none;
+}
+
+/* main section */
+.mainsection{
+     display: flex;
+     padding: 10px;
+     margin-top: 50px;
+     padding-top: 40px;
+}
+.maindiv1 hr{
+   width: 90%;
+   border: 1px solid  rgb(82, 80, 80);
+}
+.maindiv2 hr{
+   border: 1px solid  rgb(82, 80, 80);
+   width: 330px;
+}
+.maindiv1{
+   border: 2px solid rgba(46, 43, 43, 0.455);
+   background-color: rgba(46, 43, 43, 0.455);
+   padding: 30px 0px 30px 20px;
+   overflow-y: scroll;
+}
+.maindiv1 h2{
+   color: white;
+}
+.maindiv1 span{
+   color: white;
+   font-size: 20px;
+   font-weight: bolder;
+}
+.maindiv1 del{
+   color: gray;
+   padding-left: 10px;
+}
+.maindiv2{
+   width: 100%;
+   margin-left: 150px;
+   padding-left: 100px;
+}
+.maindiv2 h3{
+   color: rgb(131, 125, 125);
+   font-size: 20px;
+   padding-bottom: 12px;
+}
+.maindiv2 h1{
+   font-size: 20px;
+    margin-top: 30px;
+    color: white;
+}
+.maindiv2 span{
+   margin-left: 100px;
+}
+.maindiv2 button{
+   border: 1px solid red;
+   border-radius: 4px;
+   background-color: red; 
+   color: white; 
+   text-align: center;
+   width: 250px;
+   padding: 5px 50px 5px 50px;
+}
+#id1, #id2{
+   display: flex;
+   padding: 20px 0px 30px 0px;
+} 
+.maindiv1 img{
+   width: 20%;
+   margin-right: 50px;
+}
+#id1 .imgdetails{
+   margin-right: 40px;
+}
+#id2 .imgdetails{
+   margin-right: 40px;
+}
+.icon1{
+   margin-top: 15px;
+}
+.icon2{
+   margin: 20px 0px 0px 35px;
+}
+
+/* .Ordersummary */
+
+.orderdetails{
+        margin-left: 20px;
+    }
+    .orderdetails h2{
+      font-size: 20px;
+      color: white;
+    }
+    .summaryList{
+        display: flex;
+        gap: 150px;
+        margin-top: 30px;
+    }
+     .summaryNames .summaryValues{
+        font-size: 10px;
+    }
+    .summaryValues h2{
+      color: green;
+      padding-bottom: 5px;
+    }
+    h2{
+        margin-top: 10px;
+      } 
+
+      /* main footer section */
+footer{
+   width: 100%;
+   height: 300px;
+   background-color: hwb(0 0% 100%);
+   margin-top: 100px;
+   padding-left: 15px;
+   padding-top: 20px;
+
+}
+footer .heading{
+   color: white;
+   font-size: 20px;
+   padding: 5px;
+}
+footer article{
+   color: white;
+}
+footer p{
+   color: gray;
+   padding: 5px;
+}
+footer h3{
+   color: white;
+   margin: 8px;
+}
+footer span{
+   color: white;
+   padding-bottom: 20px;
+}
+footer .footer1{
+   display: grid;
+   grid-template-columns: 40% 20% 20% 20%;
+}
+footer .footer2{
+   display: grid;
+   grid-template-columns: 90% 10%;
+}
+footer input{
+   background-color: black;
+   border: 1px solid gray;
+   padding: 8px;
+   border-radius: 3px;
+}
+footer button{
+   color: aliceblue;
+   background-color: #ed3c3c;
+   padding: 5px 15px 5px 15px;
+   border-radius: 3px;
+}
+footer a{
+   color: aliceblue;
+   padding: 7px;
+}
+
